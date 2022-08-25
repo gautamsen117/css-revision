@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        h1{
+            background-color: aquamarine;
+            color: indianred;
+        }
+        .first-heading{
+            color: brown;
+        }
+        #third{
+            color: blueviolet;
+        }
+        h1{
+            color: azure;
+        }
+        h1{
+            color: lightcoral;
+        }
+        p{
+            border: 2px solid red;
+        }
+        .h3-tag{
+            background-color: lightcyan;
+            color: indigo;
+        }
+        h3{
+            background-color: lightblue;
+            color: indianred;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="first-heading">My Heading Number-1</h1>
+    <h1 class="first-heading">My Heading Number-2</h1>
+    <h1 id="third">My Heading Number-3</h1>
+    <h1>My Heading Number-4</h1>
+    <h3 class="h3-tag">This is h3 tag</h3>
+    <h3 class="h3-tag">This is h3 tag</h3>
+    <h3 class="h3-tag">This is h3 tag</h3>
+    <h3 class="h3-tag">This is h3 tag</h3>
+    <p>This is paragraph-1</p>
+    <p>This is paragraph-2</p>
+    <p>This is paragraph-3</p>
+    <p>This is paragraph-4</p>
+    <p>This is paragraph-5</p>
+</body>
+</html>
